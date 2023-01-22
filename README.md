@@ -1,5 +1,5 @@
 This code is used for running experiments for the paper. 
-1. Download the dataset file and unzip
+1. Download the dataset file from [https://mega.nz/file/wuoVTRJT#LejeGzAkdRTQu3AKOM-hYuAHwM0eg1pVDBT2AQ4nxF8](https://mega.nz/file/wuoVTRJT#LejeGzAkdRTQu3AKOM-hYuAHwM0eg1pVDBT2AQ4nxF8) and unzip
 2. Install all dependencies in the _requirements.txt_
 3. Run the following command to get all results: `export PYTHONPATH=.;python train_EdgeAttributed.py --data_folder 
    "$(pwd)/data" | tee run.log`
